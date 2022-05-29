@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms for Results</h2>
+<h3>Please enter your marks for these four subjects</h3>
+
+<form action="/submit" method='post'>
+  <label for="Python">Python Subject:</label><br>
+  <input type="text" id="python" name="python" value="0"><br>
+  <label for="AI">AI:</label><br>
+  <input type="text" id="AI" name="AI" value="0"><br><br>
+  <label for="C ">C programming:</label><br>
+  <input type="text" id="c" name="c" value="0"><br><br>
+  <label for="datascience">Data Science:</label><br>
+  <input type="text" id="datascience" name="datascience" value="0"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/submit".</p>
+
+</body>
+</html>
+

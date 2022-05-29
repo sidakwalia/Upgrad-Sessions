@@ -1,0 +1,10 @@
+1. Sigmoid functions are used whenever there is a case of 
+classification problem
+2. Sigmoid and tanh are sometimes in the case of vanishing 
+gradients problem.
+3. Tanh is avoided most of the time due to the dead neuron problem.
+4. Relu is prefered and it is a default choice for better results.
+5. Sometimes in the case of negative weight there is loss of information in
+ Relu so we should LeakyRelu
+6. In the output you can use linear activation function in case
+of regressions
